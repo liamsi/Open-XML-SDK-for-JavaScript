@@ -3,7 +3,7 @@
 For original repo/source and license see https://openxmlsdkjs.codeplex.com/
 
 only minor changes will be done (incomplete list):
-- [ ] update deps
+- [ ] update deps (JSzip,FileSaver.JS) 
 - [ ] clean and restructure directories
 - [ ] more complex examples (xlsx)
 - [ ] remove unlicensed copy&paste code (from Masanao Izumo)
