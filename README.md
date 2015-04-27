@@ -1,2 +1,2 @@
 # Open-XML-SDK-for-JavaScript
-For original repo/source and licens see https://openxmlsdkjs.codeplex.com/
+For original repo/source and licensw see https://openxmlsdkjs.codeplex.com/
