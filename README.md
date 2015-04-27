@@ -10,4 +10,5 @@ only minor changes will be done (incomplete list):
 - [ ] evaluate some use cases -> probably more complex (xlsx) examples
 - [ ] remove unlicensed copy&paste code (from Masanao Izumo)
 - [ ] update ms deps (linq.js - v3.0.4-Beta5) ?
+- [ ] probably remove flash dependant code (html5 is a buzzword, but I like it)
 - [ ] add complete TODO list here ;)
