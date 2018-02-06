@@ -120,6 +120,10 @@ OpenXmlRelationship
                     var f2 = f;
                     if (f !== "[Content_Types].xml")
                         f2 = "/" + f;
+                    //zipFile.data needs to be changed to one of the following asText() etc. 
+                    // The data attribute on the object returned by zip.file(name) has been removed. Use asText(), asBinary(), asUint8Array(), asArrayBuffer() or asNodeBuffer().
+                    // from: http://stuk.github.io/jszip/CHANGES.html
+                    // Now it breaks at other places. plz help. 
                     var newPart = new openXml.OpenXmlPart(pkg, f2, null, null, zipFile.data);
                     pkg.parts[f2] = newPart;
 
